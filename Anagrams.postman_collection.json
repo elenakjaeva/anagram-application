@@ -1,0 +1,63 @@
+{
+	"info": {
+		"_postman_id": "b93e97da-cdf6-4175-a13c-26ba605c7dea",
+		"name": "Anagrams",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10567243"
+	},
+	"item": [
+		{
+			"name": "Are Anagrams",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/anagrams?input1=selo&input2=lose",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"anagrams"
+					],
+					"query": [
+						{
+							"key": "input1",
+							"value": "selo"
+						},
+						{
+							"key": "input2",
+							"value": "lose"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Anagrams",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/anagrams/elso",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"anagrams",
+						"elso"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
