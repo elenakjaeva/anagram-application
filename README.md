@@ -1,6 +1,6 @@
 # Anagram Application
 
-This Java 17 Spring Boot application designed to check if two strings are anagrams of each other. It supports both a REST API and a CLI for checking anagrams and retrieving previously checked anagrams.
+This Java 17 Spring Boot application is designed to check if two strings are anagrams of each other. It supports both a REST API and a CLI for checking anagrams and retrieving previously checked anagrams.
 
 ## Requirements
 
