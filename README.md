@@ -44,7 +44,7 @@ Build the application
 
 Execute the command:
   ```bash
-  java -Dspring.profiles.active=cli -jar build/libs/anagram-1.0.0.jar
+  java "-Dspring.profiles.active=cli" -jar build/libs/anagram-1.0.0.jar
   ```
 
 ### Running only the Spring Boot REST API
