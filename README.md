@@ -117,7 +117,7 @@ Run the tests using Gradle:
 The project follows a modular structure based on the Hexagonal architecture. 
 The Hexagonal architecture, also known as the Ports and Adapters, is used in this project for several reasons
 
-* `Modularity`: The architecture promotes modular design by separating concerns into distinct layers such as domain, application, and infrastructure, making the codebase more maintainable and scalable.
+* `Modularity`: The architecture promotes modular design by separating concerns into distinct layers such as domain, and infrastructure, making the codebase more maintainable and scalable.
 * `Testability`: The use of ports and adapters allows for easier testing as dependencies can be mocked or replaced with test implementations, facilitating unit and integration testing.
 * `Flexibility`: Ports and adapters enable the application to be easily adapted to different environments or technologies without significant changes to the core business logic, promoting flexibility and future-proofing.
 * `Isolation of Concerns`: The architecture isolates business logic from external dependencies, such as databases or external services, improving code readability and making it easier to reason about system behavior.
